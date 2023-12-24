@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--fontDarkColor);
+}
+:root {
+  --bgLightColor: #121212;
+  --bgDarkColor: #000000;
+  --fontDarkColor: #a7a7a7;
+  --fontLightColor: #ffffff;
+  --green: #1ed760;
+  --songbgcolor: #181818;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  background-color: var(--bgDarkColor);
+  padding: 5px;
+  overflow-x: hidden;
+}

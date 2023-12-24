@@ -1,0 +1,12 @@
+.content {
+  width: 80%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bgLightColor);
+  border-top: 1px solid var(--bgDarkColor);
+  border-bottom: 1px solid var(--bgDarkColor);
+  border-left: 3px solid var(--bgDarkColor);
+  border-radius: 15px;
+}
