@@ -1,0 +1,23 @@
+.play-lists {
+  width: 80%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    background-color: var(--fontDarkColor);
+  }
+  p {
+    width: 100%;
+    padding: 7px;
+    color: var(--fontDarkColor);
+    cursor: pointer;
+    &:hover {
+      color: var(--fontLightColor);
+      background-color: var(--songbgcolor);
+    }
+  }
+}

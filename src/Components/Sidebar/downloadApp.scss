@@ -1,0 +1,22 @@
+.download-app {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  &:hover {
+    p {
+      color: var(--fontLightColor);
+    }
+    background-color: var(--songbgcolor);
+  }
+
+  p {
+    margin-left: 5px;
+  }
+  .download-app-icon {
+    font-size: 20px;
+  }
+}
