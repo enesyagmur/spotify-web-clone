@@ -1,7 +1,5 @@
-import "./App.css";
-
 function App() {
-  return <div className="App"></div>;
+  return <div className="w-full h-svh bg-purple-100">sas</div>;
 }
 
 export default App;
