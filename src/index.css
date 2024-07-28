@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.auth-screen {
+  @apply w-full h-screen flex items-center justify-center bg-gradient-to-b from-neutral-800 to-black;
+}
+.auth-screen-main {
+  @apply w-full sm:w-8/12 md:w-6/12 lg:w-4/12 h-5/6 bg-spotifyTheme flex flex-col items-center justify-evenly border rounded-lg border-spotifyTheme;
+}
+
+.form-input-box {
+  @apply w-64 h-10 bg-spotifyTheme text-neutral-300 border-2 border-neutral-500 p-2 text-sm;
+}
+.form-button {
+  @apply w-64 h-8 bg-textColor text-black border-textColor rounded-full font-medium text-sm;
+}
+.form-google-button {
+  @apply w-64 h-8 border-2 bg-white rounded-full text-spotifyTheme text-center pt-2 cursor-pointer;
+}
