@@ -16,5 +16,8 @@
   @apply w-64 h-8 bg-textColor text-black border-textColor rounded-full font-medium text-sm;
 }
 .form-google-button {
-  @apply w-64 h-8 border-2 bg-white rounded-full text-spotifyTheme text-center pt-2 cursor-pointer;
+  @apply w-64 h-8  bg-spotifyTheme rounded-full text-white  border-2 border-neutral-500 hover:border-white text-center pt-2 cursor-pointer;
+}
+.form-errors {
+  @apply w-10/12 h-12 flex flex-col items-center justify-center text-red-700;
 }
