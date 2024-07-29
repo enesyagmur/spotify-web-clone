@@ -10,14 +10,18 @@
 }
 
 .form-input-box {
-  @apply w-64 h-10 bg-spotifyTheme text-neutral-300 border-2 border-neutral-500 p-2 text-sm;
+  @apply w-64 h-10 bg-spotifyTheme text-neutral-300 border-2 border-textColor p-2 text-sm;
 }
 .form-button {
-  @apply w-64 h-8 bg-textColor text-black border-textColor rounded-full font-medium text-sm;
+  @apply w-64 h-8 bg-logoColor text-black border-logoColor rounded-full font-medium text-sm;
 }
 .form-google-button {
-  @apply w-64 h-8  bg-spotifyTheme rounded-full text-white  border-2 border-neutral-500 hover:border-white text-center pt-2 cursor-pointer;
+  @apply w-64 h-8  bg-spotifyTheme rounded-full text-white  border-2 border-textColor hover:border-white text-center pt-2 cursor-pointer;
 }
 .form-errors {
   @apply w-10/12 h-12 flex flex-col items-center justify-center text-red-700;
+}
+
+.sidebar-library-button {
+  @apply w-20 h-6 bg-neutral-800 text-white rounded-full text-sm font-semibold hover:bg-neutral-700;
 }

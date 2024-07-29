@@ -8,8 +8,8 @@ const MasterLayout = () => {
   return (
     <div className="w-full h-screen flex flex-col relative">
       <div className="w-full h-screen flex">
-        <Sidebar className="w-1/6" />
-        <main className="w-5/6 min-h-screen">{<Outlet />}</main>
+        <Sidebar />
+        <main className="w-9/12 min-h-screen">{<Outlet />}</main>
       </div>
       <Player />
     </div>

@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       colors: {
         spotifyTheme: "#121212",
-        textColor: "#1DC85A",
+        lightBg: "#121212",
+        textColor: "#B3B3B3",
+        logoColor: "#1DC85A",
       },
     },
   },
