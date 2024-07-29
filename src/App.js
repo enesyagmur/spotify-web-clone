@@ -3,13 +3,14 @@ import Login from "./pages/Login/Login";
 import Register from "./pages/Register/Register";
 import MasterLayout from "./Layout/MasterLayout";
 import { CustomRouter } from "./Router/CustomRouter";
+
 import "./index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import NotFound from "./pages/Notfound/NotFound";
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
@@ -22,7 +23,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
